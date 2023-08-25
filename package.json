@@ -17,7 +17,7 @@
     "test": "npx cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
     "posttest": "npm run lint",
     "doc": "typedoc --options .typedoc.json",
-    "postinstall": "tsc --outDir ./lib"
+    "postinstall": "tsc --outDir /lib"
   },
   "files": [
     "lib",
